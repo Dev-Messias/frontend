@@ -1,25 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
+import './global.css';
+
+import Logon from './pages/Logon';
+
+//JSX (Sigla para JavaScript XML - sintaxe do html , xml)
 function App() {
+  //const [counter, setCounter] = useState(0);
+  //Retorna um array [Valor da variavel, função de atualização]
+
+ // function increment() {
+   // setCounter(counter + 1);
+ // }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Messias teste...
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Logon />
   );
 }
 
