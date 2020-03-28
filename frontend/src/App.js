@@ -2,7 +2,7 @@ import React from 'react';
 
 import './global.css';
 
-import Logon from './pages/Logon';
+import Routes from './routes';
 
 //JSX (Sigla para JavaScript XML - sintaxe do html , xml)
 function App() {
@@ -14,7 +14,7 @@ function App() {
  // }
 
   return (
-    <Logon />
+    <Routes />
   );
 }
 
